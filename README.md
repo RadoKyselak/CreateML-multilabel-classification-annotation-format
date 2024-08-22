@@ -122,7 +122,7 @@ The script will convert the above CSV input into the following JSON format:
         ]
     },
     {
-        "image": "Screen-Shot-2024-png.rf.ms5jw5pllak4k9qa9ajjr556.jpg",
+        "image": "Screen-Shot-2024-png.rf.tz8je3xo05ak2p0a2qwji182.jpg",
         "annotations": [
             "animal",
             "fox"

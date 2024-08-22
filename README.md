@@ -146,3 +146,7 @@ The script will convert the above CSV input into the following JSON format:
   - The first column of each row contains the image filename.
 
   - All subsequent columns contain only `1` or `0`.
+
+## License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/RadoKyselak/CreateML-multilabel-classification-annotation-format/blob/main/LICENSE) file for details.

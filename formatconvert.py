@@ -1,9 +1,15 @@
 import csv
 import json
+import argparse
+
+parser = argparse.ArgumentParser(description='Convert a CSV file to JSON format for CreateML image classification.')
+parser.add_argument('csv_file', nargs='?', default='./_classes.csv', help='Path to the input CSV file (default: ./_classes.csv)')
+parser.add_argument('json_file', nargs='?', default='./annotations.json', help='Path to the output JSON file (default: ./annotations.json)')
+args = parser.parse_args()
 
 # Paths to CSV and JSON files
-csv_file = r""
-json_file = r""
+csv_file = args.csv_file
+json_file = args.json_file
 
 data = []
 
@@ -27,7 +33,6 @@ try:
                         "image": image_file,
                         "annotations": annotations
                     })
-
 
     with open(json_file, 'w') as json_out:
         json.dump(data, json_out, indent=4)

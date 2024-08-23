@@ -7,7 +7,7 @@ This script converts a multi-label CSV file with annotations into a JSON file co
 - Python 3.0+
 - Standard Python libraries: `csv`, `json`, and `argparse` (all three are included in Python)
 
-## Files
+## 📁Files
 
 You can specify custom file paths for the input CSV and output JSON files when running the script. Use the following command structure:
 
@@ -32,7 +32,7 @@ The CSV file should be structured as follows:
 
 - Each subsequent cell in a row should contain either `1` (if the label applies to the image) or `0` (if the label does not apply)
 
-## Usage
+## 🏃‍♂️‍➡️Usage
 
 1. **Clone this Repo:**
    If you haven't already cloned the repository, use the following command to download it to your local machine:
@@ -77,7 +77,7 @@ The CSV file should be structured as follows:
 6. **Review the Output:**
    After running the script, the output JSON file will be saved in the specified location. You should see a message in the terminal confirming that the JSON data has been saved.
 
-## Script Overview
+## 📜 Script Overview
 
 - **Imports:**
   - `csv`: To read data from the CSV file.
@@ -131,7 +131,7 @@ The script will convert the above CSV input into the following JSON format:
 ]
 ```
 
-## Troubleshooting
+## 👾 Troubleshooting
 
 - **File Not Found Error:**
   Ensure that the file paths are correct and that the specified files exist.

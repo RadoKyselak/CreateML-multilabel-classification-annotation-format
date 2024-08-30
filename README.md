@@ -4,7 +4,7 @@ This script converts a multi-label CSV file with annotations into a JSON file co
 
 ## 🤔Why use this converter
 
-Currently, no online format converter can handle multi-label classification data from .csv to .json in a format compatible with CreateML. This repository fills that gap by providing an easy-to-use solution.
+Currently, no online format converter can handle multi-label classification data from `csv` to `json` in a format compatible with CreateML. This repository fills that gap by providing an easy-to-use solution.
 
 ## Requirements
 

@@ -2,6 +2,9 @@
 
 This script converts a multi-label CSV file with annotations into a JSON file compatible with [Apple's CreateML](https://developer.apple.com/machine-learning/create-ml/). The CSV file must contain image filenames and their corresponding labels. The output JSON file will list the image filenames with their associated labels.
 
+## Best use case
+Converting roboflow CSV to Create ML JSON
+
 ## 🤔Why use this converter
 
 Currently, no online format converter can handle multi-label classification data from `csv` to `json` in a format compatible with CreateML. This repository fills that gap by providing an easy-to-use solution.
